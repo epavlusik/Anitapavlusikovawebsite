@@ -54,7 +54,12 @@ const selectElement = function (element) {
 
 let menuToggler = selectElement('.menu-toggle');
 let body = selectElement('body');
+let contact = selectElement('.nav-item-contact');
 
 menuToggler.addEventListener('click', function() {
+    body.classList.toggle('open');
+});
+
+contact.addEventListener('click', function() {
     body.classList.toggle('open');
 });
