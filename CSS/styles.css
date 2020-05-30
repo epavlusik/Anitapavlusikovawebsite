@@ -446,7 +446,7 @@ footer {
         transform: initial;
         transition: initial;
     }
-    .nav-item{
+    .nav-item,nav-item-contact{
         margin:0 2.4rem;
         border:0;
     }
