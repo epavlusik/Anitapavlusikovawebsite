@@ -401,6 +401,28 @@ footer {
     margin:5px;
     background-color: black;
   }
+.column img:hover {
+    opacity: 0.8;
+  }
+  .containerimg {
+    position: relative;
+    display: none;
+  }
+  .closebtn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
 
 /* Media Queries */
 @media screen and (min-width: 900px) {
