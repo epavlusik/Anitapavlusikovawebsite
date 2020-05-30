@@ -69,4 +69,6 @@ function expandit(imgs) {
     expandImg.src = imgs.src;
     imgText.innerHTML = imgs.alt;
     expandImg.parentElement.style.display = "block";
+    var displayedelement = document.getElementById("containerimg");
+    displayedelement.scrollIntoView();
   }
