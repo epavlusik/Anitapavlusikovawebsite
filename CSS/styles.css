@@ -124,6 +124,7 @@ header{
 
 .logo {
     margin-top: 2rem;
+    height: 50px;
 }
 
 .nav-item, .nav-item-contact {
@@ -475,6 +476,10 @@ footer {
         font-size: 4.7rem;
         letter-spacing: .8rem;
     }
+    .logo {
+    margin-top: 2rem;
+    height: 130px;
+}
     .line{
         max-width: 11.4rem;
     }
