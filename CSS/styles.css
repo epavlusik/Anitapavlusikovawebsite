@@ -124,7 +124,7 @@ header{
 
 .logo {
     margin-top: 2rem;
-    height: 50px;
+    width: 50px;
 }
 
 .nav-item, .nav-item-contact {
@@ -478,7 +478,7 @@ footer {
     }
     .logo {
     margin-top: 2rem;
-    height: 130px;
+    width: 130px;
 }
     .line{
         max-width: 11.4rem;
