@@ -63,3 +63,10 @@ menuToggler.addEventListener('click', function() {
 contact.addEventListener('click', function() {
     body.classList.toggle('open');
 });
+function expandit(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+  }
